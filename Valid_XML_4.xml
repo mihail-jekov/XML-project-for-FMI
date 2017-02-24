@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aircraft-carrier SYSTEM "AircraftCarrier.dtd">
+<?xml-stylesheet type="text/xsl" href="XML_Transformation_1.xsl"?>
+
+<aircraft-carrier engine = "nuclear" class = "USS Nimitz" years-of-service = "1975-present">
+	<name>Нимиц</name>
+	<personel>
+		<soldier id = "s1">
+			<first-name>Хари</first-name>
+			<last-name>Харис</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>58</age>
+			<religion>шинто</religion>
+		</soldier>
+	</personel>
+	<aircrafts>
+		<aircraft id = "a4" control = "pilot" role = "fighter" manufacturer="m5" battle = "b2">
+			<model>F-15 Eagle</model>
+			<cost>$28 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>5550 км</range>
+				<weight>127000 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a5" control = "pilot" role = "multirole" manufacturer="m4" battle = "b1 b2">
+			<model>F-16 Fighting Falcon</model>
+			<cost>$14.6 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>4420 км</range>
+				<weight>8570 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a6" control = "pilot" role = "fighter" manufacturer="m1">
+			<model>F-22 Raptor</model>
+			<cost>$150 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>3320 км</range>
+				<weight>19700 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a7" control = "pilot" role = "bomber" manufacturer="m3" battle = "b1 b2">
+			<model>B-2 Spirit</model>
+			<cost>$737 милиона</cost>
+			<specifications>
+				<crew>2</crew>
+				<range>11100 км</range>
+				<weight>71700 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a8" control = "pilot" role = "electronic-warfare" manufacturer="m2" battle = "b1 b2">
+			<model>EA-18G Growler</model>
+			<cost>$68.2 милиона</cost>
+			<specifications>
+				<crew>2</crew>
+				<range>2346 км</range>
+				<weight>15011 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a9" control = "pilot" role = "multirole" manufacturer="m1">
+			<model>F-35 Lightning II</model>
+			<cost>142 милиона долара</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>2220 км</range>
+				<weight>13199 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a10" control = "pilot" role = "reconnaissance" manufacturer="m1" battle = "b1">
+			<model>U-2</model>
+			<cost>200 милиона долара</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>10300 км</range>
+				<weight>6760 кг</weight>
+			</specifications>
+		</aircraft>
+	</aircrafts>
+	<battles>
+		<battle id="b1">
+			<battle-name>Война в Персийския залив</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Ирак</country-name>
+					<population>31.2 милиона</population>
+				</country>
+			</countries>
+			<duration>210 дни</duration>
+			<description>
+				Войната в Персийския залив е конфликт между Ирак и обединените (коалиционни) сили на 34 държави, водени от САЩ. Войната започва с иракската инвазия в Кувейт през август 1990 г. Резултатът от войната е убедителната победа на коалиционните сили, които изтласкват иракските сили от Кувейт на цената на минимални жертви. Главните битки по земя и въздух се водят на територията на Ирак, Кувейт и съседна Саудитска Арабия. Войната не обхваща други страни, въпреки че иракски ракети засягат израелски градове.
+			</description>
+			<units-lost></units-lost>
+		</battle>
+		<battle id="b2">
+			<battle-name>Войната в Ирак</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Ирак</country-name>
+					<population>31.2 милиона</population>
+				</country>
+			</countries>
+			<duration>8 години и 8 месеца</duration>
+			<units-lost></units-lost>
+		</battle>
+	</battles>
+	<manufacturers>
+		<manufacturer id="m2">
+			<manufacturer-name>Boeing</manufacturer-name>
+			<established>1916</established>
+			<staff-count>168421</staff-count>
+			<profit>$4.585 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m1">
+			<manufacturer-name>Lockheed Martin Aeronautics</manufacturer-name>
+			<established>1995</established>
+			<staff-count>116000</staff-count>
+			<profit>$2.981 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m3">
+			<manufacturer-name>Northrop Grumman</manufacturer-name>
+			<established>1994</established>
+			<staff-count>68100</staff-count>
+			<profit>1.952 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m4">
+			<manufacturer-name>General Dynamics</manufacturer-name>
+			<established>1899</established>
+			<staff-count>92200</staff-count>
+			<profit>31.513 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m5">
+			<manufacturer-name>McDonnell Douglas</manufacturer-name>
+			<established>1967</established>
+			<staff-count>50000</staff-count>
+			<profit>$20.30 милярда</profit>
+		</manufacturer>
+	</manufacturers>
+</aircraft-carrier>

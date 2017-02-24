@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT aircraft-carrier (name, personel, aircrafts, battles, manufacturers)>
+  <!ELEMENT name (#PCDATA)>
+  <!ATTLIST aircraft-carrier engine (nuclear|diesel) "nuclear">
+  <!ATTLIST aircraft-carrier class CDATA #REQUIRED>
+  <!ATTLIST aircraft-carrier years-of-service CDATA #IMPLIED>
+  <!ELEMENT personel (soldier+)>
+    <!ELEMENT soldier (first-name, last-name, gender, position, age, religion)>
+      <!ATTLIST soldier id ID #REQUIRED
+						aircraft IDREFS #IMPLIED
+						battle IDREFS #IMPLIED>
+	  <!ELEMENT first-name (#PCDATA)>
+	  <!ELEMENT last-name (#PCDATA)>
+      <!ELEMENT gender (#PCDATA)>
+	  <!ELEMENT position (#PCDATA)>
+	  <!ELEMENT age (#PCDATA)>
+	  <!ELEMENT religion (#PCDATA)>
+  <!ELEMENT aircrafts (aircraft+)>
+    <!ELEMENT aircraft (model, cost, specifications, helicopter?)>
+	  <!ATTLIST aircraft id ID #REQUIRED
+	                     battle IDREFS #IMPLIED
+	                     manufacturer IDREF #REQUIRED>
+	  <!ATTLIST aircraft control (pilot|auto-pilot) #REQUIRED>
+	  <!ATTLIST aircraft role (fighter|bomber|multirole|reconnaissance|electronic-warfare) #REQUIRED>
+      <!ELEMENT model (#PCDATA)>
+	  <!ELEMENT cost (#PCDATA)>
+	  <!ELEMENT specifications (crew, range, weight)>
+	    <!ELEMENT crew (#PCDATA)>
+        <!ELEMENT range (#PCDATA)>
+	    <!ELEMENT weight (#PCDATA)>
+	  <!ELEMENT helicopter (main-rotor-diameter, main-rotor-area)>
+	    <!ELEMENT main-rotor-diameter (#PCDATA)>
+	    <!ELEMENT main-rotor-area (#PCDATA)>
+  <!ELEMENT battles (battle*)>
+    <!ELEMENT battle (battle-name, countries, duration, description?, units-lost)>
+	  <!ATTLIST battle id ID #REQUIRED>
+      <!ELEMENT battle-name (#PCDATA)>
+      <!ELEMENT countries (country+)>
+        <!ELEMENT country (country-name, population)>
+		  <!ATTLIST country continent (europe|asia|north-america|south-america|africa|antarctica) #IMPLIED>
+          <!ELEMENT country-name (#PCDATA)>
+		  <!ELEMENT population (#PCDATA)>
+      <!ELEMENT duration (#PCDATA)>
+	  <!ELEMENT description (#PCDATA)>
+	  <!ELEMENT units-lost (#PCDATA)>
+  <!ELEMENT manufacturers (manufacturer*)>
+    <!ELEMENT manufacturer (manufacturer-name, established, staff-count, profit)>
+      <!ATTLIST manufacturer id ID #REQUIRED>
+	  <!ELEMENT manufacturer-name (#PCDATA)>
+	  <!ELEMENT established (#PCDATA)>
+	  <!ELEMENT staff-count (#PCDATA)>
+      <!ELEMENT profit (#PCDATA)>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aircraft-carrier SYSTEM "AircraftCarrier.dtd">
+<?xml-stylesheet type="text/xsl" href="TXT_Transformation_2.xsl"?>
+
+<aircraft-carrier engine = "nuclear" class = "USS Nimitz" years-of-service = "1975-present">
+	<name>Мидуей</name>
+	<personel>
+		<soldier id = "s1" aircraft = "a1">
+			<first-name>Хенри</first-name>
+			<last-name>Роджърс</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>48</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s2" aircraft = "a2" battle = "b2">
+			<first-name>Кери</first-name>
+			<last-name>Уилямс</last-name>
+			<gender>жена</gender>
+			<position>пилот</position>
+			<age>28</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s3" aircraft = "a1" battle = "b1">
+			<first-name>Диана</first-name>
+			<last-name>Уилямс</last-name>
+			<gender>жена</gender>
+			<position>пилот</position>
+			<age>29</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s4" aircraft = "a2">
+			<first-name>Роджър</first-name>
+			<last-name>Макгрегър</last-name>
+			<gender>мъж</gender>
+			<position>пилот</position>
+			<age>25</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s8">
+			<first-name>Джордж</first-name>
+			<last-name>Кенеди</last-name>
+			<gender>мъж</gender>
+			<position>инструктор</position>
+			<age>25</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s5" aircraft = "a1">
+			<first-name>Джонатан</first-name>
+			<last-name>Морз</last-name>
+			<gender>мъж</gender>
+			<position>пилот</position>
+			<age>28</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s6" aircraft = "a3" battle = "b1 b2">
+			<first-name>Грегъри</first-name>
+			<last-name>Прат</last-name>
+			<gender>мъж</gender>
+			<position>пилот</position>
+			<age>54</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s7" aircraft = "a2" battle = "b2">
+			<first-name>Джонатан</first-name>
+			<last-name>Морз</last-name>
+			<gender>мъж</gender>
+			<position>инструктор</position>
+			<age>28</age>
+			<religion>християнин</religion>
+		</soldier>
+	</personel>
+	<aircrafts>
+		<aircraft id = "a1" control = "pilot" role = "fighter" manufacturer="m1" battle = "b1 b2">
+			<model>F-15 Eagle</model>
+			<cost>$28 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>5550 км</range>
+				<weight>127000 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a2" control = "pilot" role = "multirole" manufacturer="m2" battle = "b1">
+			<model>F-16 Fighting Falcon</model>
+			<cost>$14.6 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>4420 км</range>
+				<weight>8570 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a3" control = "pilot" role = "fighter" manufacturer="m1" battle = "b2">
+			<model>F-22 Raptor</model>
+			<cost>$150 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>3320 км</range>
+				<weight>19700 кг</weight>
+			</specifications>
+		</aircraft>
+	</aircrafts>
+	<battles>
+		<battle id="b1">
+			<battle-name>Война в Персийския залив</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Ирак</country-name>
+					<population>31.2 милиона</population>
+				</country>
+			</countries>
+			<duration>210 дни</duration>
+			<description>
+				Войната в Персийския залив е конфликт между Ирак и обединените (коалиционни) сили на 34 държави, водени от САЩ. Войната започва с иракската инвазия в Кувейт през август 1990 г. Резултатът от войната е убедителната победа на коалиционните сили, които изтласкват иракските сили от Кувейт на цената на минимални жертви. Главните битки по земя и въздух се водят на територията на Ирак, Кувейт и съседна Саудитска Арабия. Войната не обхваща други страни, въпреки че иракски ракети засягат израелски градове.
+			</description>
+			<units-lost></units-lost>
+		</battle>
+		<battle id="b2">
+			<battle-name>Пустинен щит</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Ирак</country-name>
+					<population>31.2 милиона</population>
+				</country>
+			</countries>
+			<duration>130 дни</duration>
+			<units-lost></units-lost>
+		</battle>
+	</battles>
+	<manufacturers>
+		<manufacturer id="m2">
+			<manufacturer-name>General Dynamics</manufacturer-name>
+			<established>1899</established>
+			<staff-count>92200</staff-count>
+			<profit>31.513 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m1">
+			<manufacturer-name>McDonnell Douglas</manufacturer-name>
+			<established>1967</established>
+			<staff-count>50000</staff-count>
+			<profit>$20.30 милярда</profit>
+		</manufacturer>
+	</manufacturers>
+</aircraft-carrier>

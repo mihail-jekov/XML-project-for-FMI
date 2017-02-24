@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aircraft-carrier SYSTEM "AircraftCarrier.dtd">
+<?xml-stylesheet type="text/xsl" href="HTML_Transformation_2.xsl"?>
+
+<aircraft-carrier engine = "diesel" class = "Yorktown-class" years-of-service = "1938-1947">
+	<name>USS „Ентърпрайз“ (CV-6)</name>
+	<personel>
+		<soldier id = "s1" battle = "b1 b2 b4 b5">
+			<first-name>Честър</first-name>
+			<last-name>Нимитц</last-name>
+			<gender>мъж</gender>
+			<position>адмирал на флоата</position>
+			<age>57</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s2" battle = "b5">
+			<first-name>Франк</first-name>
+			<last-name>Флетчър</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>57</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s3" battle = "b2 b3">
+			<first-name>Реймънд</first-name>
+			<last-name>Шпруанс</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>56</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s4" battle = "b1 b4">
+			<first-name>Марк</first-name>
+			<last-name>Митчър</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>55</age>
+			<religion>християнин</religion>
+		</soldier>
+		<soldier id = "s5" battle = "b1 b3">
+			<first-name>Томас</first-name>
+			<last-name>Кинкейд</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>54</age>
+			<religion>християнин</religion>
+		</soldier>
+	</personel>
+	<aircrafts>
+		<aircraft id = "a1" control = "pilot" role = "fighter" manufacturer="m1">
+			<model>BTD Destroyer</model>
+			<cost>$200000</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>1098 км</range>
+				<weight>5244 кг</weight>
+			</specifications>
+		</aircraft>
+	</aircrafts>
+	<battles>
+		<battle id="b1">
+			<battle-name>Пърл Харбър</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Съединени американски щати</country-name>
+					<population>313 милиона</population>
+				</country>
+			</countries>
+			<duration>един ден</duration>
+			<units-lost></units-lost>
+		</battle>
+		<battle id="b2">
+			<battle-name>Битка при Мидуей</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Съединени американски щати</country-name>
+					<population>313 милиона</population>
+				</country>
+			</countries>
+			<duration>три дни</duration>
+			<units-lost></units-lost>
+		</battle>
+		<battle id="b3">
+			<battle-name>Битката при островите Санта Круз</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Съединени американски щати</country-name>
+					<population>313 милиона</population>
+				</country>
+			</countries>
+			<duration>три дни</duration>
+			<units-lost></units-lost>
+		</battle>
+		<battle id="b4">
+			<battle-name>Битката за Иво Джима</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Съединени американски щати</country-name>
+					<population>313 милиона</population>
+				</country>
+			</countries>
+			<duration>три дни</duration>
+			<units-lost></units-lost>
+		</battle>
+		<battle id="b5">
+			<battle-name>Битка в Коралово море</battle-name>
+			<countries>
+				<country continent="asia">
+					<country-name>Австралия</country-name>
+					<population>22117876</population>
+				</country>
+			</countries>
+			<duration>четири дни</duration>
+			<units-lost></units-lost>
+		</battle>
+	</battles>
+	<manufacturers>
+		<manufacturer id="m1">
+			<manufacturer-name>Дъглас</manufacturer-name>
+			<established>1921</established>
+			<staff-count>25500</staff-count>
+			<profit>$500 милиона</profit>
+		</manufacturer>
+	</manufacturers>
+</aircraft-carrier>

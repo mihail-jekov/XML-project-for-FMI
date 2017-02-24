@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aircraft-carrier SYSTEM "AircraftCarrier.dtd">
+<?xml-stylesheet type="text/xsl" href="HTML_Transformation_3.xsl"?>
+
+<aircraft-carrier engine = "nuclear" class = "Шарл дьо Гол" years-of-service = "2001-present">
+	<name>Шарл дьо Гол</name>
+	<personel>
+		<soldier id = "s1" aircraft = "a6">
+			<first-name>Франсоа</first-name>
+			<last-name>Лебьов</last-name>
+			<gender>мъж</gender>
+			<position>адмирал</position>
+			<age>36</age>
+			<religion>християнин</religion>
+		</soldier>
+	</personel>
+	<aircrafts>
+		<aircraft id = "a12" control = "pilot" role = "fighter" manufacturer = "m1">
+			<model>Rafale</model>
+			<cost>74 милиона евро</cost>
+			<specifications>
+				<crew>1-2</crew>
+				<range>3700 км</range>
+				<weight>9500 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a13" control = "pilot" role = "bomber" manufacturer = "m1">
+			<model>Super Étendard</model>
+			<cost>12 милиона долара</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>1820 км</range>
+				<weight>6500 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a15" control = "pilot" role = "bomber" manufacturer = "m4">
+			<model>SA 365 Dauphin 2</model>
+			<cost>10 милиона долара</cost>
+			<specifications>
+				<crew>1-2</crew>
+				<range>827 км</range>
+				<weight>2411 кг</weight>
+			</specifications>
+			<helicopter>
+				<main-rotor-diameter>11.94 м</main-rotor-diameter>
+				<main-rotor-area>111.98 м2</main-rotor-area>
+			</helicopter>
+		</aircraft>
+		<aircraft id = "a6" control = "pilot" role = "fighter" manufacturer="m1">
+			<model>F-22 Raptor</model>
+			<cost>$150 милиона</cost>
+			<specifications>
+				<crew>1</crew>
+				<range>3320 км</range>
+				<weight>19700 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a14" control = "pilot" role = "bomber" manufacturer = "m3">
+			<model>E-2 Hawkeye</model>
+			<cost>176 милиона долара</cost>
+			<specifications>
+				<crew>5</crew>
+				<range>2708 км</range>
+				<weight>18090 кг</weight>
+			</specifications>
+		</aircraft>
+		<aircraft id = "a16" control = "pilot" role = "bomber" manufacturer = "m4">
+			<model>EC 725 Super Cougar</model>
+			<cost>24.5 милиона долара</cost>
+			<specifications>
+				<crew>1-2</crew>
+				<range>857 км</range>
+				<weight>5330 кг</weight>
+			</specifications>
+			<helicopter>
+				<main-rotor-diameter>16.20 м</main-rotor-diameter>
+				<main-rotor-area>206.1 м2</main-rotor-area>
+			</helicopter>
+		</aircraft>
+	</aircrafts>
+	<battles>
+	</battles>
+	<manufacturers>
+		<manufacturer id="m1">
+			<manufacturer-name>Dassault Aviation</manufacturer-name>
+			<established>1929</established>
+			<staff-count>11600</staff-count>
+			<profit>$487 милиона</profit>
+		</manufacturer>
+		<manufacturer id="m2">
+			<manufacturer-name>Lockheed Martin</manufacturer-name>
+			<established>1995</established>
+			<staff-count>116000</staff-count>
+			<profit>$2.981 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m3">
+			<manufacturer-name>Northrop Grumman</manufacturer-name>
+			<established>1994</established>
+			<staff-count>68100</staff-count>
+			<profit>$1.952 милярда</profit>
+		</manufacturer>
+		<manufacturer id="m4">
+			<manufacturer-name>Airbus Helicopters</manufacturer-name>
+			<established>1992</established>
+			<staff-count>23000</staff-count>
+			<profit>$6.3 милярда</profit>
+		</manufacturer>
+	</manufacturers>
+</aircraft-carrier>

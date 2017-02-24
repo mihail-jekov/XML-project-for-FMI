@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aircraft-carrier>
+    <name>УСС Ентърпрайз</name>
+    <personel>
+        <soldier>
+            <first-name>Честър</first-name>
+            <last-name>Нимиц</last-name>
+            <gender>мъж</gender>
+            <position>адмирал</position>
+            <age>57</age>
+            <religion>християнин</religion>
+        </soldier>
+    </personel>
+    <aircraft>
+        <aircraft>
+            <model>BTD Destroyer</model>
+            <cost>$200000</cost>
+            <specifications>
+                <crew>1</crew>
+                <range>1098 км</range>
+                <weight>5244 кг</weight>
+            </specifications>
+        </aircraft>
+    </aircraft>
+    <battles>
+        <battle>
+            <battle-name>Битка при Мидуей</battle-name>
+            <countries>
+                <country>
+                    <country-name>Съединени американски щати</country-name>
+                    <population>313 милиона</population>
+                </country>
+            </countries>
+            <duration>три дни</duration>
+            <description>Битката при атола Мидуей се състои на 4 юни 1942 година и е една от
+                най-значителните морски битки на Втората световна война. Флотът на САЩ побеждава
+                обединения флот на Япония, който атакува атола Мидуей. Битката бележи повратен
+                момент във войната в Тихия океан. Обединеният флот на Япония губи 4 тежки
+                самолетоносача, 250 самолета и най-добрите си пилоти, с което загубва възможностите
+                си да действа извън зоната на прикритие на бреговата авиация.</description>
+            <units-lost>Сериозни загуби за японската армия</units-lost>
+        </battle>
+    </battles>
+    <manufacturers>
+        <manufacturer>
+            <manufacturer-name>Дъглас</manufacturer-name>
+            <establised>1921</establised>
+            <staff-count>25500</staff-count>
+            <revenue>$900 милиона</revenue>
+        </manufacturer>
+    </manufacturers>
+</aircraft-carrier>

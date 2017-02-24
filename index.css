@@ -1,0 +1,115 @@
+body {
+	padding: 0px;
+	margin: 0px;
+	background-image: url(aircraft.jpg);
+	background-size: cover !important;
+}
+
+h1 {
+	margin: 0px;
+}
+
+h2 {
+	margin: 0xp;
+}
+
+#main-wrapper {
+	position: absolute;
+	width: 50%;
+	left: 25%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, 0.9);
+}
+
+#main-bottom {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	border-top: 1px solid #AAAAAA;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	bottom: 0px;
+}
+
+#main-top {
+	width: 100%;
+	text-align: center;
+	border-bottom: 1px solid #AAAAAA;
+}
+
+#main-center {
+	position: absolute;
+	width: 100%;
+	top: 170px;
+	bottom: 40px;
+	overflow: auto;
+}
+
+.airplane-image {
+	opacity: 1;
+	width: 150px;
+	position: absolute;
+	opacity: 1 !important;
+	left: 20px;
+	margin-top: 20px;
+}
+
+.element-wrapper {
+	width: 100%;
+	height: 150px;
+}
+
+.element-wrapper h2 {
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 190px;
+	padding: 0px;
+}
+
+.element-wrapper ul {
+	margin-left: 190px;
+}
+
+.admirals {
+	font-size: 10pt;
+	margin-left: 190px;
+}
+
+.biography img {
+	margin-top: 0px;
+}
+
+.biography-text {
+	margin-left: 190px;
+	font-size: 12pt;
+	color: #444444;
+}
+
+.biography {
+	margin-top: 30px;
+	margin-bottom: 30px;
+	height: 200px;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.battle {
+	height: 220px;
+}
+
+.battle-description {
+	margin-left: 190px;
+}
+
+.helicopter-ul {
+	position: absolute;
+	left: 300px;
+}
+
+.manufacturer-text {
+	text-align: center;
+	font-size: 14pt;
+	color: #444444;
+}
